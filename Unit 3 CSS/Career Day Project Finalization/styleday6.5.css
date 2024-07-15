@@ -1,0 +1,41 @@
+main {
+    margin: 15px;
+    padding: 10px;
+}
+
+footer {
+    margin: 50px;
+    padding: 10px;
+}
+
+.job-title {
+    font-weight: bold;
+    color: maroon;
+}
+
+body {
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20220906/pngtree-cool-wave-liquid-background-for-landing-page-website-image_1463455.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    color: #fc7d2e;
+}
+
+#featured {
+    border: 7px dotted #fc7d2e;
+}
+
+.nav {
+    float: left;
+    border: 7px outset black;
+    width: 25%;
+}
+
+.content {
+    float: right;
+    width: 70%;
+}

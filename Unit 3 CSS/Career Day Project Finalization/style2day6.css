@@ -1,0 +1,7 @@
+/* Styles for images */
+img {
+    width: 200px; /* Set width */
+    height: 200px; /* Set height */
+    border: 5px solid black; /* Black solid border */
+    margin: 10px; /* Add some margin for spacing */
+}

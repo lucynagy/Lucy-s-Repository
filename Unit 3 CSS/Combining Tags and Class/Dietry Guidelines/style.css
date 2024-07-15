@@ -1,0 +1,30 @@
+/* Background color for active rows in the female table */
+#female .active {
+    background-color: SeaGreen;
+}
+
+/* Background color for inactive rows in the female table */
+#female .inactive {
+    background-color: MediumAquamarine;
+}
+
+/* Background color for inactive rows in the male table */
+#male .inactive {
+    background-color: Peru;
+}
+
+/* Example provided in the question for active rows in the male table */
+#male .active {
+    background-color: #a2662a;
+}
+
+/* General table styling */
+th {
+    background-color: SteelBlue;
+    color: white;
+}
+
+/* General body styling */
+body {
+    background-color: PaleGoldenRod;
+}

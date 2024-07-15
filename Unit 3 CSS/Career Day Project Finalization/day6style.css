@@ -1,0 +1,11 @@
+/* Styles for large-list */
+.large-list {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Styles for unordered lists inside ordered lists */
+.large-list ul {
+    font-size: 18px;
+    font-weight: normal;
+}

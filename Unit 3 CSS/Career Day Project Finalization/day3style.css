@@ -1,0 +1,35 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling header */
+header {
+    border-bottom: 2px solid black; /* Solid border style */
+    background-color: lightgray; /* Same as body's background color */
+    padding: 10px; /* Adding some padding for space */
+}
+
+/* Styling main */
+main {
+    background-color: lightgray; /* Same as body's background color */
+    height: 80%; /* 80% of viewport height */
+    width: 70%; /* 70% of viewport width */
+    padding: 20px; /* Adding padding for content inside */
+    margin: auto; /* Center aligning main content */
+    overflow: auto; /* Adding overflow for content scrolling if needed */
+}
+
+/* Styling footer */
+footer {
+    background-color: lightgray; /* Same as body's background color */
+    padding: 10px; /* Adding padding for space */
+}
+
+/* Setting the background image */
+body {
+    background-image: url("https://marketplace.canva.com/EAEthkBVLfQ/1/0/1600w/canva-blush-wave-desktop-wallpaper-drvq3zaYl2E.jpg");
+    background-size: cover; /* Covering the entire background */
+    background-repeat: no-repeat; /* No repeating of the background */
+}
