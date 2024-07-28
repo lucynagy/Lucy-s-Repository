@@ -1,0 +1,36 @@
+body {
+    background-color: #f4ffdb;
+    font-size: 18px;
+}
+
+h2 {
+    color: #162955;
+}
+
+img {
+    height: 200px;
+}
+
+.endangered {
+    color: red;
+}
+
+.threatened {
+    color: orangeRed;
+}
+
+.scientific-name {
+    font-style: italic;
+}
+
+header {
+    background-image: url('https://via.placeholder.com/1200x300'); /* Placeholder URL for background image */
+    background-size: cover;
+    color: white; /* Adjust text color for visibility */
+    text-align: center;
+    padding: 50px 0;
+}
+
+footer {
+    font-size: 10px;
+}

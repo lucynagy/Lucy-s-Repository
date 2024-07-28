@@ -1,0 +1,11 @@
+body {
+    background-image: url("http://www.publicdomainpictures.net/pictures/140000/t2/grunge-map.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.dropdown-menu {
+    max-width: 300px;
+}
+.dropdown-header {
+    font-weight: bold;
+}

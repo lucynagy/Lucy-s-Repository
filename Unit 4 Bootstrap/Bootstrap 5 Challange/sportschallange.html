@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucy's Sports Team</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <style>
+        .bg-dark-custom {
+            background-color: #343a40 !important;
+        }
+        .team-logo {
+            width: 150px;
+            height: auto;
+        }
+        .card-title {
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Sidebar -->
+    <nav id="sidebar" class="bg-dark-custom text-white p-3">
+        <h2>Lucy's Sports Team</h2>
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#players">Players</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#schedule">Schedule</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-content" class="ms-3 p-3">
+        <div class="container">
+            <!-- Home Section -->
+            <section id="home" class="mb-4">
+                <h1 class="my-4">Welcome to My Sports Team</h1>
+                <img src="https://via.placeholder.com/1200x500?text=Team+Image" alt="Team Image" class="img-fluid rounded mb-4">
+                <p>Welcome to the official website of my sports team! Here you'll find all the latest news, player profiles, and upcoming schedule.</p>
+            </section>
+
+            <!-- Players Section -->
+            <section id="players" class="mb-4">
+                <h2 class="mb-4">Meet the Team</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Simone_Biles_National_Team_2024.jpg/640px-Simone_Biles_National_Team_2024.jpg" class="card-img-top" alt="Simone Biles">
+                            <div class="card-body">
+                                <h5 class="card-title">Simone Biles</h5>
+                                <p class="card-text">Position: Forward</p>
+                                <p class="card-text">Number: 22</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="https://cdn.britannica.com/74/234474-050-A8FA4BB2/Serena-Williams-womens-single-trophy-Australian-Open-Januray-28-2017.jpg" class="card-img-top" alt="Serena Williams">
+                            <div class="card-body">
+                                <h5 class="card-title">Serena Williams</h5>
+                                <p class="card-text">Position: Defender</p>
+                                <p class="card-text">Number: 5</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="https://cdn.sanity.io/images/oyf3dba6/production/9fca0bc620a2cfebe91bcb30faab277e4776f1dd-580x580.jpg" class="card-img-top" alt="Alex Morgan">
+                            <div class="card-body">
+                                <h5 class="card-title">Alex Morgan</h5>
+                                <p class="card-text">Position: Goalkeeper</p>
+                                <p class="card-text">Number: 11</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Schedule Section -->
+            <section id="schedule" class="mb-4">
+                <h2 class="mb-4">Upcoming Schedule</h2>
+                <ul class="list-group">
+                    <li class="list-group-item">Match 1: 05/21 - 7:00pm - OLSM</li>
+                    <li class="list-group-item">Match 2: 06/02 - 6:30pm - Marian</li>
+                    <li class="list-group-item">Match 3: 06/12 - 5:00pm - Mercy</li>
+                </ul>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact">
+                <h2 class="mb-4">Contact Us</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Lucy Nagy</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">nagyl26@divinechildhighschool.org</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="3" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
